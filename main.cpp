@@ -1,10 +1,10 @@
 #include<iostream>
 
 int main() {
-    const int numMonths = 12; // Number of months
-    double profits[numMonths]; // Array to store profits
+    const int numMonths = 12; 
+    double profits[numMonths]; 
 
-    // Input profits for each month
+   
     for (int i = 0; i < numMonths; i++) {
         std::cout << "Enter profit for month " << i + 1 << ": ";
         std::cin >> profits[i];
